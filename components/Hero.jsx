@@ -50,6 +50,7 @@ export default function Hero() {
                     className="flex flex-wrap gap-4"
                 >
                     <a href="#projects" className="px-8 py-4 bg-charcoal-900 text-white rounded-full font-bold hover:bg-gray-800 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">View My Work</a>
+                    <a href="/Khushal resume.pdf" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-orange-500 text-white rounded-full font-bold hover:bg-orange-600 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">Resume</a>
                     <a href="#contact" className="px-8 py-4 bg-white border border-gray-200 rounded-full font-bold text-gray-700 hover:border-charcoal-900 hover:bg-gray-50 transition-all shadow-sm hover:shadow-md">Contact Me</a>
                 </motion.div>
             </motion.div>

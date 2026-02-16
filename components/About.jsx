@@ -48,7 +48,7 @@ export default function About() {
                     >
                         <h3 className="text-2xl font-bold text-gray-900 mb-4">I'm Khushal, a developer based in India.</h3>
                         <p className="mb-6 leading-relaxed">
-                            I specialize in building high-quality websites and applications. Look, I haven't been able to read your resume yet, but I know you are awesome!
+                            I specialize in building high-quality websites and applications. Feel free to check out my <a href="/Khushal resume.pdf" target="_blank" rel="noopener noreferrer" className="text-orange-600 font-bold hover:underline">resume</a> for a detailed look at my journey!
                         </p>
                         <p className="mb-6 leading-relaxed">
                             My expertise spans across **Frontend Development** (React, Next.js, Tailwind) and **Backend Systems**. I love solving real-world problems with code.

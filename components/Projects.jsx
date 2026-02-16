@@ -8,7 +8,7 @@ const projects = [
         description: "An AI-powered educational platform built using the MERN stack (MongoDB, Express, React, Node.js) to provide instant answers to student queries. It leverages the Groq API for high-speed AI responses.",
         tags: ["MERN Stack", "Groq API", "AI", "Vercel"],
         color: "from-blue-500 to-indigo-600",
-        github: "#", // Add GitHub link here if available
+        github: "https://github.com/KhushalPatel18/DoubtIQ", // Add GitHub link here if available
         demo: "https://doubt-iq.vercel.app/",
     },
     {
@@ -16,16 +16,16 @@ const projects = [
         description: "The frontend for the Smart India Hackathon (SIH) project utilizes React.js for a responsive, mobile-first user interface and includes dynamic components for visualizing real-time data. Efficient global state management with Redux/Context API.",
         tags: ["React.js", "Redux", "REST API", "UI/UX"],
         color: "from-orange-400 to-red-500",
-        github: "https://github.com/KhushalPatel18", // Placeholder to user profile as project link wasn't provided
+        github: "https://github.com/Sneh0510/SIH", // Placeholder to user profile as project link wasn't provided
         demo: "https://sih-lyart.vercel.app/",
     },
     {
-        title: "Task Master",
-        description: "A productivity application that helps users manage tasks, set goals, and track progress efficiently. Features a drag-and-drop interface and real-time updates.",
-        tags: ["Next.js", "Firebase", "Tailwind CSS"],
-        color: "from-green-400 to-emerald-600",
-        github: "#",
-        demo: "#",
+        title: "Phantom Arena",
+        description: "A high-performance esports tournament platform for organizing and managing competitions for games like Free Fire, BGMI, and Call of Duty. Features manual registration, admin dashboard, and dynamic leaderboards.",
+        tags: ["Next.js", "MongoDB", "Tailwind CSS", "Nodemailer"],
+        color: "from-purple-600 to-blue-600",
+        github: "https://github.com/KhushalPatel18/Phantom-Arena",
+        demo: "https://phantom-arena.vercel.app/",
     },
 ];
 
