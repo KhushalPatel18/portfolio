@@ -13,7 +13,7 @@ const skills = [
 
 function Word({ children, ...props }) {
     const color = new THREE.Color();
-    const fontProps = { font: '/fonts/Inter-Bold.woff', fontSize: 2.5, letterSpacing: -0.05, lineHeight: 1, 'material-toneMapped': false }
+    const fontProps = { fontSize: 2.5, letterSpacing: -0.05, lineHeight: 1, 'material-toneMapped': false }
     const ref = useRef();
     const [hovered, setHovered] = useState(false);
 

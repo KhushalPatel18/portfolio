@@ -73,24 +73,24 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.8, duration: 0.8 }}
-                        className="flex space-x-4"
+                        className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
                     >
                         <a
                             href="#projects"
-                            className="px-8 py-3 bg-brand-cyan text-brand-black font-bold font-orbitron rounded-sm hover:scale-105 transition-transform shadow-[0_0_15px_rgba(0,243,255,0.7)]"
+                            className="px-8 py-3 bg-brand-cyan text-brand-black font-bold font-orbitron rounded-sm hover:scale-105 transition-transform shadow-[0_0_15px_rgba(0,243,255,0.7)] text-center"
                         >
                             VIEW WORK
                         </a>
                         <a
                             href="#contact"
-                            className="px-8 py-3 border border-brand-white/20 text-brand-white font-bold font-orbitron rounded-sm hover:bg-brand-white/10 transition-all"
+                            className="px-8 py-3 border border-brand-white/20 text-brand-white font-bold font-orbitron rounded-sm hover:bg-brand-white/10 transition-all text-center"
                         >
                             CONTACT ME
                         </a>
                         <a
                             href="/Khushal resume.pdf"
                             target="_blank"
-                            className="px-8 py-3 border border-brand-cyan text-brand-cyan font-bold font-orbitron rounded-sm hover:bg-brand-cyan hover:text-brand-black transition-all"
+                            className="px-8 py-3 border border-brand-cyan text-brand-cyan font-bold font-orbitron rounded-sm hover:bg-brand-cyan hover:text-brand-black transition-all text-center"
                         >
                             RESUME
                         </a>
