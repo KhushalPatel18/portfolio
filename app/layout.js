@@ -22,6 +22,10 @@ export const metadata = {
   description: "Advanced 3D Portfolio showcasing creative development work in Next.js, Three.js, and WebGL.",
   keywords: ["Frontend Developer", "3D Portfolio", "React Three Fiber", "Next.js", "Creative Developer", "Cyberpunk UI"],
   authors: [{ name: "Khushal Patel" }],
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "Khushal Patel | Futuristic Developer",
     description: "Immersive 3D Portfolio Experience",

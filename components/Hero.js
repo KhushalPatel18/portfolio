@@ -83,9 +83,16 @@ const Hero = () => {
                         </a>
                         <a
                             href="#contact"
-                            className="px-8 py-3 border border-brand-cyan text-brand-cyan font-bold font-orbitron rounded-sm hover:bg-brand-cyan hover:text-brand-black transition-all"
+                            className="px-8 py-3 border border-brand-white/20 text-brand-white font-bold font-orbitron rounded-sm hover:bg-brand-white/10 transition-all"
                         >
                             CONTACT ME
+                        </a>
+                        <a
+                            href="/Khushal resume.pdf"
+                            target="_blank"
+                            className="px-8 py-3 border border-brand-cyan text-brand-cyan font-bold font-orbitron rounded-sm hover:bg-brand-cyan hover:text-brand-black transition-all"
+                        >
+                            RESUME
                         </a>
                     </motion.div>
                 </div>

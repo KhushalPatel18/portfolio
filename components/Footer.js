@@ -10,9 +10,9 @@ const Footer = () => {
             <div className="container mx-auto px-6 flex flex-col items-center">
 
                 <div className="flex space-x-8 mb-8">
-                    <a href="#" className="text-gray-400 hover:text-brand-cyan hover:shadow-[0_0_10px_#00f3ff] transition-all p-2 rounded-full"><FaGithub className="text-2xl" /></a>
-                    <a href="#" className="text-gray-400 hover:text-brand-purple hover:shadow-[0_0_10px_#bc13fe] transition-all p-2 rounded-full"><FaLinkedin className="text-2xl" /></a>
-                    <a href="#" className="text-gray-400 hover:text-brand-blue hover:shadow-[0_0_10px_#0066ff] transition-all p-2 rounded-full"><FaTwitter className="text-2xl" /></a>
+                    <a href="https://github.com/KhushalPatel18" className="text-gray-400 hover:text-brand-cyan hover:shadow-[0_0_10px_#00f3ff] transition-all p-2 rounded-full"><FaGithub className="text-2xl" /></a>
+                    <a href="https://www.linkedin.com/in/khushal-patel-b2040b350/" className="text-gray-400 hover:text-brand-purple hover:shadow-[0_0_10px_#bc13fe] transition-all p-2 rounded-full"><FaLinkedin className="text-2xl" /></a>
+                    <a href="https://x.com/_Khushal_1805" className="text-gray-400 hover:text-brand-blue hover:shadow-[0_0_10px_#0066ff] transition-all p-2 rounded-full"><FaTwitter className="text-2xl" /></a>
                 </div>
 
                 <p className="text-brand-white font-orbitron text-sm tracking-wider mb-2">
