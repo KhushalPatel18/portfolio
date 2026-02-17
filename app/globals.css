@@ -1,34 +1,79 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cream-50: #fcfaf9;
-  --color-charcoal-900: #2d2d2d;
-  --color-orange-500: #ff4d00;
-  --color-blue-700: #0047ab;
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-space-grotesk: "Space Grotesk", sans-serif;
 
-  --font-inter: var(--font-inter);
+  --color-brand-black: #050505;
+  --color-brand-navy: #0B0F1A;
+  --color-brand-cyan: #00f3ff;
+  --color-brand-purple: #bc13fe;
+  --color-brand-blue: #0066ff;
+  --color-brand-white: #e0e0e0;
+  --color-brand-glass: rgba(255, 255, 255, 0.05);
+  --color-brand-neon-glow: 0 0 10px rgba(0, 243, 255, 0.7);
 
-  --animate-gradient-x: gradient-x 3s ease infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+  --animate-cursor-blink: cursor-blink 1s step-end infinite;
 
-  @keyframes gradient-x {
+  @keyframes float {
 
     0%,
     100% {
-      background-size: 200% 200%;
-      background-position: left center;
+      transform: translateY(0);
     }
 
     50% {
-      background-size: 200% 200%;
-      background-position: right center;
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px #00f3ff, 0 0 10px #00f3ff;
+    }
+
+    to {
+      box-shadow: 0 0 20px #00f3ff, 0 0 30px #00f3ff;
+    }
+  }
+
+  @keyframes cursor-blink {
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
     }
   }
 }
 
-body {
+/* Utilities */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
 
-  background-image:
-    radial-gradient(at 0% 0%, rgba(255, 77, 0, 0.03) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(0, 71, 171, 0.03) 0px, transparent 50%);
-  background-attachment: fixed;
+  .neon-text {
+    text-shadow: 0 0 2px #00f3ff, 0 0 5px rgba(0, 243, 255, 0.5);
+  }
+
+  .neon-border {
+    border: 1px solid #00f3ff;
+    box-shadow: 0 0 5px #00f3ff;
+  }
+}
+
+body {
+  background-color: var(--color-brand-black);
+  color: var(--color-brand-white);
+  font-family: var(--font-poppins);
+  overflow-x: hidden;
 }
